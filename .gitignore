@@ -1,0 +1,133 @@
+# Arquivos e diretórios __pycache__
+__pycache__/
+*.py[cod]
+
+# Distribuição / pacotes
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+wheels/
+share/python-wheels/
+*.manifest
+*.spec
+
+# Instalação de arquivos e diretórios
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos do PyInstaller
+# Normalmente contém bibliotecas dinâmicas
+*.so
+
+# Arquivos do Cython
+*.pyx
+*.pxd
+*.pxi
+*.h
+*.c
+*.cpp
+
+# Cache e logs do Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Arquivos de logs
+*.log
+
+# Arquivos de banco de dados
+*.sqlite3
+
+# Arquivos de IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de Test Coverage
+.coverage
+*.cover
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.lcov
+
+# Arquivos de debug
+*.pdb
+*.stackdump
+
+# Arquivos de Profiler
+*.prof
+
+# Arquivos do PEP 8
+pep8.report
+
+# Arquivos do pytest
+.cache/
+
+# Arquivos temporários e de backup
+*.bak
+*.swp
+*.tmp
+*.temp
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos do mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Diretórios do PyCharm
+# Apenas os principais diretórios são mantidos para suporte aos projetos.
+# Consulte a documentação oficial para mais detalhes: https://www.jetbrains.com/pycharm/help/directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.html
+.idea/
+
+# Arquivos do Pyenv
+.python-version
+
+# Arquivos do Pylint
+.pylint.d/
+
+# Arquivos do Rope (plugin de refatoração para o editor)
+.ropeproject
+
+# Arquivos do PIPENV
+Pipfile.lock
+
+# Arquivos do Spyder
+.spyderproject
+.spyproject
+
+# Arquivos do Ccache
+.ccache/
+
+# Arquivos do Dill (uma alternativa ao pickle)
+.dill
+
+# Arquivos do Enthought Canopy
+.enthought/
+
+# Arquivos do Envoy
+.envoy
+
+# Arquivos do virtualenv
+# Se você estiver usando o pipenv, deve ignorar o arquivo pipenv.lock
+pipfile.lock
+
+# Arquivos do Jupyter
+.ipynb_checkpoints/
+
+# Arquivos do Pyre (verificação de tipo para Python)
+.pyre/
